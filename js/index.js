@@ -108,6 +108,7 @@ const fourthSection = gsap.timeline({
 fourthSection.fromTo(".symbol > img", { rotate: "360deg" }, { rotate: "0deg" });
 
 // Sixth Section
+
 const sixthSection = gsap.timeline({
   scrollTrigger: {
     trigger: ".sec06",
@@ -124,7 +125,6 @@ const sixthSectionTitle = gsap.timeline({
     start: "-=600",
     end: "top top",
     scrub: 3,
-    markers: true,
   },
 });
 
@@ -140,3 +140,23 @@ sixthSection
   )
   .fromTo(".photoBox", { y: 0 }, { y: -2300, duration: 6 })
   .fromTo(".workBox > button", { opacity: 0 }, { opacity: 1, duration: 2 });
+
+// Seventh Section
+const sevenSection = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".sec07",
+    start: "-=500",
+    end: "bottom top",
+    scrub: 3,
+    markers: true,
+  },
+});
+
+sevenSection
+  .fromTo(
+    ".halfCircle > img",
+    { rotate: "360deg" },
+    { rotate: "0deg", duration: 4 }
+  )
+  .fromTo(".since", { y: 0 }, { y: 20, duration: 4 }, "<")
+  .fromTo(".marketing", { y: 0 }, { y: -20, duration: 4 }, "<");
