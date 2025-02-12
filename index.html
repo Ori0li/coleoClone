@@ -9,11 +9,186 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/TextPlugin.min.js"></script>
 
+    <!-- swiper CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- JS -->
-    <script src="js/index.js" defer></script>
+    <script src="./js/index.js" defer></script>
+    <script src="./js/swiper.js" defer></script>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/section.css" />
+    <link rel="stylesheet" href="./css/swiper.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <ul>
+        <li>ABOUT US</li>
+        <li>WORKS</li>
+        <li>CONTECT US</li>
+      </ul>
+    </header>
+    <section class="sec01 section">
+      <div class="title">
+        <h1 class="title_main">COLEO MARKETING GROUP</h1>
+        <h1 class="title_sub">WE MAKE BUSINESS</h1>
+      </div>
+      <div class="bigLogo">
+        <img
+          src="http://www.coleomarketing.com/assets/images/sec01_logo.png"
+          alt=""
+        />
+      </div>
+      <div class="caption">
+        <ul>
+          <li>BRAND&CAMPAIN MARKETING</li>
+          <li>SOCIAL MEDIA</li>
+          <li>PROUDCTION</li>
+          <li>ADVERTISING</li>
+          <li>GLOBAL MARKETING</li>
+          <li>PLANNING</li>
+          <li>MARKETING</li>
+        </ul>
+      </div>
+    </section>
+    <section class="sec02 section">
+      <div class="videoBox">
+        <video src="./video/water.mp4"></video>
+      </div>
+      <div class="textBox">
+        <div class="fistText">
+          <span>Creativeness</span>
+          <p>is you need</p>
+        </div>
+        <div class="secondText">
+          <p>for detail marketing</p>
+        </div>
+      </div>
+    </section>
+    <section class="sec03 section">
+      <article class="quoteBox">
+        <div class="fistQuote">
+          <h1>TRANSFORM YOUR</h1>
+        </div>
+        <div class="secondQuote">
+          <h1>BUSINESS BY</h1>
+        </div>
+        <div class="thirdQuote">
+          <h1>BEING</h1>
+          <p>Remarkable.</p>
+        </div>
+        <div class="quotePeople">
+          <h1>by seth Godin</h1>
+        </div>
+      </article>
+    </section>
+    <section class="sec04 section">
+      <article class="symbolBox">
+        <div class="workNoti">
+          <div class="symbol">
+            <img
+              src="http://www.coleomarketing.com/assets/images/symbol.svg"
+              alt=""
+            />
+          </div>
+          <p>
+            새로운 시각으로 브랜드가 가진 가치를 발견하고<br />나아갈 방향성을
+            제공합니다
+          </p>
+          <a href="#none">OUR WORKS ></a>
+        </div>
+      </article>
+    </section>
+    <section class="sec05 section">
+      <div class="slideTitle">
+        <p>(OUR STORY)</p>
+        <h1>We are a team that inspire <br />each other</h1>
+      </div>
+      <article>
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img
+                src="http://www.coleomarketing.com/assets/images/slide_img_1.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="http://www.coleomarketing.com/assets/images/slide_img_2.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="http://www.coleomarketing.com/assets/images/slide_img_3.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="http://www.coleomarketing.com/assets/images/slide_img_4.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="http://www.coleomarketing.com/assets/images/slide_img_5.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </article>
+    </section>
+    <section class="sec06 section">
+      <div class="workBox">
+        <div class="workTitle">
+          <p class="mainTitle">OUR</p>
+          <p class="subTitle">Works</p>
+        </div>
+        <div class="photoBox">
+          <div class="photoCard firstCard">
+            <img
+              src="	http://www.coleomarketing.com/assets/images/work_1.jpg"
+              alt=""
+            />
+            <p>LG BUISINESS SOLUTION:A THOUSAND COLORS,<br />HANBOK</p>
+          </div>
+          <div class="photoCard secondCard">
+            <img
+              src="	http://www.coleomarketing.com/assets/images/work_2.jpg"
+              alt=""
+            />
+            <p>LG gram 360:'그램에 자유로움을 더하다'신제품 USP</p>
+          </div>
+          <div class="photoCard thirdCard">
+            <img
+              src="	http://www.coleomarketing.com/assets/images/work_3.jpg"
+              alt=""
+            />
+            <p>LG VS:THE DESIGN LAB 'BRING STYLE AND FUNCTION'<br />TOGETHER</p>
+          </div>
+          <div class="photoCard fourthCard">
+            <img
+              src="	http://www.coleomarketing.com/assets/images/work_4.jpg"
+              alt=""
+            />
+            <p>LG gram 2in1 2021</p>
+          </div>
+        </div>
+        <button>WORKS ></button>
+      </div>
+    </section>
+    <section class="sec07"></section>
+  </body>
 </html>

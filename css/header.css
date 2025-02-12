@@ -1,0 +1,20 @@
+header {
+  font-family: "Arita-dotum-Medium";
+
+  width: 100%;
+  padding: 40px 80px;
+  color: white;
+
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+header > ul {
+  display: flex;
+  justify-content: end;
+  gap: 40px;
+
+  font-size: 15px;
+  font-weight: 900;
+}
