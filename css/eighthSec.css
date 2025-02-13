@@ -1,0 +1,45 @@
+.sec08 {
+  background-color: black;
+  color: white;
+}
+
+.sec08 > .clientBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec08 > .clientBox > h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.sec08 > .clientBox > p {
+  font-size: 30px;
+}
+
+@keyframes marquee {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+​ .sec08 > .marquee {
+  overflow: hidden;
+  height: 10vw;
+}
+
+.sec08 > .marquee > .marquee_inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 200%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  animation: marquee 50s linear infinite;
+}

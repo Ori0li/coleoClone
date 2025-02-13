@@ -1,0 +1,67 @@
+@keyframes moveUpDown {
+  0%,
+  100% {
+    top: 0;
+  }
+  50% {
+    top: 100px;
+  }
+}
+.movingBox {
+  position: absolute;
+  width: 3px;
+  height: 100px;
+
+  bottom: 0;
+  left: 25px;
+}
+
+.box {
+  height: 10px;
+  border: 3px solid white;
+  position: relative;
+  animation: moveUpDown 8s linear infinite;
+}
+.scrollText {
+  position: absolute;
+  bottom: 120px;
+  left: 7px;
+  color: #efefef;
+  font-size: 12px;
+
+  transform: rotate(270deg);
+}
+
+.sec01 {
+  color: white;
+  background-color: black;
+
+  position: relative;
+}
+
+.sec01 > .title {
+  font-size: 80px;
+  font-weight: 100;
+  position: absolute;
+  top: 130px;
+  left: 70px;
+}
+
+.sec01 > .bigLogo {
+  position: absolute;
+  right: 0;
+}
+
+.sec01 > .caption {
+  font-size: 13px;
+
+  width: fit-content;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+.sec01 > .caption > ul > li {
+  text-align: end;
+  margin-bottom: 5px;
+}

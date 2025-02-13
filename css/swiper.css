@@ -12,14 +12,3 @@
   width: 100%;
   object-fit: cover;
 }
-
-.swiper-pagination {
-  width: 100%;
-  color: #cecece;
-  font-size: 34px;
-  font-weight: 700;
-}
-
-.swiper-pagination-current {
-  color: #ffffff;
-}

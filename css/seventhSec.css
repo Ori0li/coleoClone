@@ -1,0 +1,30 @@
+.sec07 {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.sec07 > .since {
+  font-size: 100px;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+.sec07 > .marketing {
+  font-size: 100px;
+  position: absolute;
+  top: 25%;
+  right: 10%;
+}
+
+.sec07 > .client {
+  position: absolute;
+  bottom: 20%;
+  left: 25%;
+  font-size: 35px;
+}

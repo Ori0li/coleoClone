@@ -1,0 +1,16 @@
+.sec05 > .slideTitle {
+  display: flex;
+  gap: 50px;
+
+  padding: 50px 100px;
+}
+
+.sec05 > .slideTitle > p {
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.sec05 > .slideTitle > h1 {
+  font-size: 70px;
+  line-height: 60px;
+}

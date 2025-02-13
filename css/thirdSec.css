@@ -1,0 +1,57 @@
+.sec03 {
+  font-size: 110px;
+  position: relative;
+}
+
+.sec03 > .quoteBox {
+  width: 100%;
+  height: 100vh;
+
+  letter-spacing: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 50px;
+}
+
+.sec03 > .quoteBox > .fistQuote {
+  position: absolute;
+  top: 26%;
+  right: 200px;
+  display: flex;
+  gap: 30px;
+}
+
+.sec03 > .quoteBox > .secondQuote {
+  position: absolute;
+  top: 43%;
+  left: 250px;
+  display: flex;
+  gap: 30px;
+}
+.sec03 > .quoteBox > .thirdQuote {
+  position: absolute;
+  top: 56%;
+  right: 10px;
+  display: flex;
+  gap: 30px;
+}
+
+.sec03 > .quoteBox > .quotePeople {
+  position: absolute;
+  top: 70%;
+  right: 400px;
+}
+
+.sec03 > .quoteBox > .thirdQuote > p {
+  font-size: 130px;
+  font-family: "Cafe24Lovingu";
+}
+
+.sec03 > .quoteBox > .quotePeople > h1 {
+  font-size: 80px;
+  font-family: "Cafe24Lovingu";
+}

@@ -1,0 +1,93 @@
+.sec06 {
+  position: relative;
+}
+
+.sec06 > .workBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.sec06 > .workBox > button {
+  padding: 10px 30px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+
+  font-size: 23px;
+
+  position: absolute;
+  bottom: 20%;
+}
+
+.sec06 > .workBox > .workTitle {
+  font-size: 180px;
+  font-weight: 900;
+}
+
+.sec06 > .workBox > .workTitle > .mainTitle {
+  position: absolute;
+  top: 25%;
+  left: 0;
+}
+
+.sec06 > .workBox > .workTitle > .subTitle {
+  position: absolute;
+  top: 45%;
+  right: 0;
+  font-family: "Cafe24Lovingu";
+  font-size: 250px;
+}
+
+.sec06 > .workBox > .photoBox {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  bottom: -890px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.sec06 > .workBox > .photoBox > .photoCard {
+  width: 400px;
+  color: white;
+  font-size: 11px;
+}
+
+.sec06 > .workBox > .photoBox > .photoCard > img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.firstCard {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+}
+
+.secondCard {
+  position: absolute;
+  top: 30%;
+  right: 25%;
+}
+.thirdCard {
+  position: absolute;
+  top: 60%;
+  left: 25%;
+}
+.fourthCard {
+  position: absolute;
+  top: 80%;
+  right: 25%;
+}

@@ -1,0 +1,92 @@
+@keyframes blink-effect {
+  50% {
+    opacity: 0;
+  }
+}
+
+.sec09 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+
+.sec09 > .subMenu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 0 200px;
+}
+
+.sec09 > .togetherBox {
+  font-size: 150px;
+}
+
+.sec09 > .togetherBox > .togetherText {
+  display: flex;
+  align-items: end;
+  gap: 30px;
+}
+
+.sec09 > .infoBox {
+  font-size: 18px;
+  display: flex;
+  gap: 300px;
+}
+
+.sec09 > .infoBox > .link > button {
+  padding: 5px 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.sec09 > .infoBox > .link > button:hover {
+  color: white;
+  background-color: black;
+}
+
+.enter {
+  width: 50px;
+  height: 50px;
+  background-image: url(http://www.coleomarketing.com/assets/images/ico_enter.svg);
+  background-size: cover;
+  animation: blink-effect 4s linear infinite;
+}
+
+.createTextBox {
+  display: flex;
+  align-items: center;
+
+  position: relative;
+}
+
+.zero {
+  width: 100px;
+  height: 100%;
+}
+
+.zero > .firstZero {
+  width: 100px;
+  position: absolute;
+  top: 5px;
+}
+
+.zero > .secondZero {
+  width: 100px;
+  position: absolute;
+  top: 15px;
+}
+
+.zero > .thirdZero {
+  width: 100px;
+  position: absolute;
+  top: 25px;
+}
+
+.zero > span > img {
+  width: 100%;
+}
