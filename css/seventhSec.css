@@ -28,3 +28,8 @@
   left: 25%;
   font-size: 35px;
 }
+
+.sec07 > .halfCircle > img {
+  width: 200px;
+  height: 200px;
+}
